@@ -11,12 +11,12 @@
 
 body {
   font-family: "Pretendard", Arial, Helvetica, sans-serif;
-  background-color: #151519;
-  color: white;
+  background-color: #eaeae6; /* Inverted #151519 */
+  color: black; /* Inverted white */
 }
 
 #navbar_links_1 {
-  color: white;
+  color: black; /* Inverted white */
 }
 
 .container {

@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #151519;
+    background-color: #eaeae6; /* Inverted #151519 */
     z-index: 1;
     opacity: 0;
     pointer-events: none;
@@ -24,7 +24,7 @@
     top: 1rem;
     right: 1rem;
     cursor: pointer;
-    color: #151519;
+    color: #eaeae6; /* Inverted #151519 */
     z-index: 2;
   }
 
@@ -33,11 +33,11 @@
     top: 1.5rem;
     right: 1.5rem;
     cursor: pointer;
-    background-color: #0e0e0e;
+    background-color: #f1f1f1; /* Inverted #0e0e0e */
   }
 
   .navbar_burger_back svg {
-    background-color: #0e0e0e;
+    background-color: #f1f1f1; /* Inverted #0e0e0e */
   }
 
   .navbar_menu {
@@ -46,7 +46,7 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: #0e0e0e;
+    background-color: #f1f1f1; /* Inverted #0e0e0e */
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -54,20 +54,20 @@
     align-items: flex-start;
     transform: translateX(100%);
     z-index: 1000;
-    color: #0e0e0e;
+    color: #f1f1f1; /* Inverted #0e0e0e */
     transition: transform 0.3s ease;
     box-sizing: border-box;
   }
 
   .navbar_menu a {
     position: relative;
-    color: #ffffff;
+    color: #000000; /* Inverted #ffffff */
     font-size: 1.5rem;
     margin-left: 1rem;
     margin-bottom: 3rem;
     text-decoration: none;
     font-family: Pretendard;
-    background-color: #0e0e0e;
+    background-color: #f1f1f1; /* Inverted #0e0e0e */
   }
 
   .navbar_menu.active {
@@ -95,8 +95,8 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
-    color: #000;
-    background-color: #151519;
+    color: #ffffff; /* Inverted #000000 */
+    background-color: #eaeae6; /* Inverted #151519 */
     z-index: 999;
     animation: navbarBottom 1s forwards;
   }
@@ -105,10 +105,9 @@
     margin-right: 5%;
   }
 
-
   .navbar_links a {
     text-decoration: none;
-    color: #90909a;
+    color: #6f6f65; /* Inverted #90909a */
     margin-right: 4rem;
     font-size: 1.5rem;
     font-weight: 600;
@@ -122,13 +121,13 @@
   }
 
   .navbar_links a::before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -1px;
     left: 50%;
     width: 0;
     height: 3px;
-    background-color: #fcaa30;
+    background-color: #fcaa30; /* Unchanged */
     transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
   }
 
@@ -140,23 +139,23 @@
   .navbar_logo {
     margin-left: 3%;
     text-decoration: none;
-    color: #000;
+    color: #ffffff; /* Inverted #000000 */
     font-size: 2.3rem;
     font-weight: 500;
   }
 
   .navbar_scroll {
-    background-color: #fff;
+    background-color: #000000; /* Inverted #ffffff */
     z-index: 5;
     border-bottom: 1px solid gray;
   }
 
   .navbar_scroll div a {
-    color: black;
+    color: #ffffff; /* Inverted #000000 */
   }
 
   .navbar_scroll a {
-    color: black;
+    color: #ffffff; /* Inverted #000000 */
   }
 
   @keyframes navbarBottom {

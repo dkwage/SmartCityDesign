@@ -6,12 +6,12 @@
 
 body {
   font-family: "Pretendard", Arial, Helvetica, sans-serif;
-  background-color: #151519;
-  color: white;
+  background-color: #eaeae6; /* Inverted #151519 */
+  color: black; /* Inverted white */
 }
 
 #navbar_links_2 {
-  color: white;
+  color: black; /* Inverted white */
 }
 
 .container {
@@ -31,9 +31,9 @@ body {
 }
 
 .form-container {
-  background-color: #1e1e24;
+  background-color: #e1e1db; /* Inverted #1e1e24 */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Inverted rgba(0, 0, 0, 0.5) */
   overflow: hidden;
 }
 
@@ -56,10 +56,10 @@ input {
   width: 100%;
   padding: 10px;
   margin: 8px 0;
-  border: 1px solid #2b2b2b;
+  border: 1px solid #d4d4d4; /* Inverted #2b2b2b */
   border-radius: 5px;
-  background-color: #2b2b2b;
-  color: white;
+  background-color: #d4d4d4; /* Inverted #2b2b2b */
+  color: black; /* Inverted white */
 }
 
 button {
@@ -68,14 +68,14 @@ button {
   margin: 10px 0;
   border: none;
   border-radius: 5px;
-  background-color: #fcaa30;
-  color: white;
+  background-color: #fcaa30; /* Unchanged */
+  color: black; /* Inverted white */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #fcaa30;
+  background-color: #fcaa30; /* Unchanged */
 }
 
 .box {
@@ -119,7 +119,7 @@ img {
   font-family: Pretendard;
   font-size: 3vw; /* Adjusted for desktop */
   font-weight: 600;
-  color: white;
+  color: black; /* Inverted white */
 }
 .next {
   position: relative;
@@ -129,7 +129,7 @@ img {
   font-family: Pretendard;
   font-size: 3vw; /* Adjusted for desktop */
   font-weight: 600;
-  color: white;
+  color: black; /* Inverted white */
 }
 
 /**버튼디자인**/
@@ -137,8 +137,8 @@ button {
   width: 10vw;
   height: 10vw;
   border-radius: 100%;
-  color: white;
-  background: black;
+  color: black; /* Inverted white */
+  background: white; /* Inverted black */
 }
 
 .main-container-1 {
@@ -160,7 +160,7 @@ button {
   font-family: Pretendard;
   font-size: 3vw; /* Adjusted for desktop */
   font-weight: 600;
-  color: white;
+  color: black; /* Inverted white */
 }
 
 .small-text-container {
@@ -174,7 +174,7 @@ button {
   font-family: Pretendard;
   font-size: 2vw; /* Adjusted for desktop */
   font-weight: 500;
-  color: white;
+  color: black; /* Inverted white */
   flex: 1;
   word-break: keep-all;
 }
@@ -182,11 +182,11 @@ button {
 .back:active,
 .next:active {
   /** 버튼을 클릭하는 동안 색을 바꾼다. **/
-  background: #3e3e3e !important;
+  background: #c1c1c1 !important; /* Inverted #3e3e3e */
 }
 
 .back:disabled,
 .next:disabled {
   /** 버튼 속성이 disabled되면 색을 바꾼다. **/
-  background: #cbcaca !important;
+  background: #343535 !important; /* Inverted #cbcaca */
 }

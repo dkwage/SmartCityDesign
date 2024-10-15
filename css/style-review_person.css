@@ -6,12 +6,12 @@
 
 body {
   font-family: "Pretendard", Arial, Helvetica, sans-serif;
-  background-color: #151519;
-  color: white;
+  background-color: #eaeae6; /* Inverted #151519 */
+  color: black; /* Inverted white */
 }
 
 #navbar_links_7 {
-  color: white;
+  color: black; /* Inverted white */
 }
 
 .container {
@@ -31,9 +31,9 @@ body {
 }
 
 .form-container {
-  background-color: #1e1e24;
+  background-color: #e1e1db; /* Inverted #1e1e24 */
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Inverted rgba(0, 0, 0, 0.5) */
   overflow: hidden;
 }
 
@@ -160,7 +160,7 @@ button {
   font-family: Pretendard;
   font-size: 3vw; /* Adjusted for desktop */
   font-weight: 600;
-  color: white;
+  color: black;
 }
 
 .small-text-container {
@@ -174,7 +174,7 @@ button {
   font-family: Pretendard;
   font-size: 2vw; /* Adjusted for desktop */
   font-weight: 500;
-  color: white;
+  color: black;
   flex: 1;
   word-break: keep-all;
 }
