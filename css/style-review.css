@@ -195,7 +195,8 @@ button {
 
 .img_container {
   display: flex;
-  justify-content: space-around; /* Adjusts spacing between items */
+  justify-content: center; /* Adjusts spacing between items */
+  gap: 80px;
 }
 
 .img_text_wrapper {
@@ -206,4 +207,8 @@ button {
   margin-top: 10%;
   font-size: 2rem;
   font-weight: 600;
+}
+
+.img_container img {
+  width: 80%;
 }
