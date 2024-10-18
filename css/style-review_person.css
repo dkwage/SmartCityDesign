@@ -172,11 +172,10 @@ button {
 
 .description {
   font-family: Pretendard;
-  font-size: 2vw; /* Adjusted for desktop */
   font-weight: 500;
   color: black;
-  flex: 1;
   word-break: keep-all;
+  line-height: 1.8;
 }
 
 .back:active,
@@ -191,10 +190,9 @@ button {
   background: #cbcaca !important;
 }
 .review_container {
-  margin-top: 10%;
+  margin-top: 5%;
   display: flex;
-  align-items: flex-start;
-  gap: 50px;
+  align-items: center;
   padding: 30px;
   justify-content: center;
 }
@@ -208,11 +206,12 @@ button {
   text-align: center; /* Centers text under the image */
 }
 
+.img_text_wrapper img {
+  width: 50%;
+}
+
 .img_container p {
   margin-top: 10%;
   font-size: 2rem;
   font-weight: 600;
-}
-.description {
-  font-size: 1.2rem;
 }
