@@ -64,14 +64,14 @@ button {
   margin: 10px 0;
   border: none;
   border-radius: 5px;
-  background-color: #fcaa30; /* Unchanged */
+  background-color: #140f07; /* Unchanged */
   color: black; /* Inverted white */
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #fcaa30; /* Unchanged */
+  background-color: #140f07; /* Unchanged */
 }
 
 .mainImage {
@@ -196,6 +196,7 @@ button {
   font-size: 3vw; /* Adjusted for desktop */
   font-weight: 600;
   color: black; /* Inverted white */
+  margin-bottom: 15%;
 }
 
 .small-text-container {
@@ -207,7 +208,7 @@ button {
 
 .description {
   font-family: Pretendard;
-  font-size: 1.3rem; /* Adjusted for desktop */
+  font-size: 1.5rem; /* Adjusted for desktop */
   font-weight: 500;
   color: black; /* Inverted white */
   flex: 1;
