@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #eaeae6; /* Inverted #151519 */
+    background-color: white; /* Inverted #151519 */
     z-index: 1;
     opacity: 0;
     pointer-events: none;
@@ -24,7 +24,7 @@
     top: 1rem;
     right: 1rem;
     cursor: pointer;
-    color: #eaeae6; /* Inverted #151519 */
+    color: white; /* Inverted #151519 */
     z-index: 2;
   }
 
@@ -92,23 +92,23 @@
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
     color: #ffffff; /* Inverted #000000 */
-    background-color: #eaeae6; /* Inverted #151519 */
+    background-color: white; /* Inverted #151519 */
     z-index: 999;
     animation: navbarBottom 1s forwards;
   }
 
   .navbar_links {
-    margin-right: 5%;
+    margin-right: 3%;
   }
 
   .navbar_links a {
     text-decoration: none;
     color: #6f6f65; /* Inverted #90909a */
-    margin-right: 4rem;
+    margin-right: 2rem;
     font-size: 1.5rem;
     font-weight: 600;
     position: relative;
@@ -127,7 +127,7 @@
     left: 50%;
     width: 0;
     height: 3px;
-    background-color: #fcaa30; /* Unchanged */
+    background-color: #140f07; /* Unchanged */
     transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
   }
 
@@ -139,9 +139,9 @@
   .navbar_logo {
     margin-left: 3%;
     text-decoration: none;
-    color: #ffffff; /* Inverted #000000 */
+    color: black; /* Inverted #000000 */
     font-size: 2.3rem;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .navbar_scroll {
