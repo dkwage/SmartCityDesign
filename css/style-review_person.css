@@ -176,6 +176,7 @@ button {
   color: black;
   word-break: keep-all;
   line-height: 1.8;
+  font-size: 1.5em;
 }
 
 .back:active,
