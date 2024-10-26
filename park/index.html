@@ -39,9 +39,9 @@
     function gtag() {
       dataLayer.push(arguments);
     }
-    gtag("js", new Date());
+    gtag('js', new Date());
 
-    gtag("config", "G-FE18K1WJYF");
+    gtag('config', 'G-FE18K1WJYF');
   </script>
   <body>
     <header>
@@ -118,7 +118,7 @@
           <p class="description">
             남편을 잃고 나서 세상이 참 무의미해졌어요. 하루하루가 무겁고
             외로웠는데,<br />
-            이곳의 '감정 감응 구역'이 제 삶에 큰 위로가 되어 주었습니다.<br />
+            이곳의 '치유 정원'이 제 삶에 큰 위로가 되어 주었습니다.<br />
             혼자 있을 때 불현듯 찾아오는 외로움과 슬픔, 그때마다 이 공간이 저를
             감싸주는 느낌이에요.<br /><br />
             제 감정을 읽어주고, 그에 맞춰 부드러운 음악이 흐르며 따뜻한 햇살이
@@ -133,6 +133,19 @@
         </div>
       </div>
     </div>
+    <!-- Add the audio element -->
+    <audio
+      autoplay
+      id="background-music"
+      src="../assets/mp3/2. 박미영.mp3"
+    ></audio>
+    <script>
+      // JavaScript to play the audio when the page loads
+      window.addEventListener('click', function () {
+        var audio = document.getElementById('background-music');
+        audio.play();
+      });
+    </script>
     <!-- <footer data-include-path="../assets/html/footer.html"></footer> -->
   </body>
   <script src="../js/menu.js"></script>

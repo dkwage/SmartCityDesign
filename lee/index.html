@@ -39,9 +39,9 @@
     function gtag() {
       dataLayer.push(arguments);
     }
-    gtag("js", new Date());
+    gtag('js', new Date());
 
-    gtag("config", "G-FE18K1WJYF");
+    gtag('config', 'G-FE18K1WJYF');
   </script>
   <body>
     <header>
@@ -133,6 +133,19 @@
         </div>
       </div>
     </div>
+    <!-- Add the audio element -->
+    <audio
+      autoplay
+      id="background-music"
+      src="../assets/mp3/1. 이정호.mp3"
+    ></audio>
+    <script>
+      // JavaScript to play the audio when the page loads
+      window.addEventListener('click', function () {
+        var audio = document.getElementById('background-music');
+        audio.play();
+      });
+    </script>
     <!-- <footer data-include-path="../assets/html/footer.html"></footer> -->
   </body>
   <script src="../js/menu.js"></script>
