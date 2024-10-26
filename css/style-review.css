@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Pretendard", Arial, Helvetica, sans-serif;
+  font-family: 'Pretendard', Arial, Helvetica, sans-serif;
   background-color: white; /* Inverted #151519 */
   color: black; /* Inverted white */
 }
@@ -190,7 +190,7 @@ button {
   background: #cbcaca !important;
 }
 .review_container {
-  margin-top: 5%;
+  margin-top: 10%;
   display: flex;
 }
 
